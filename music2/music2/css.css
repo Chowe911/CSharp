@@ -1,0 +1,90 @@
+﻿body{
+    zoom: 100%;
+}
+
+.upper {    
+    position: relative;
+    height: 300px; 
+    width: 1050px;
+    
+}
+
+.side{
+    width: 400px; 
+    height: 1150px;
+    position: absolute;
+    background-color:red;
+}
+
+.main{
+    position: relative;
+    margin-left: 400px;
+    padding:25px;
+    height: 1100px; 
+    width: 600px;
+    background-color:yellow;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    height: 1450px; 
+    width: 1050px;
+}
+
+.play{
+    width: 400px; 
+    height: 225px;
+    position: relative;
+    background-color:pink;
+}
+
+.element{
+    width: 400px; 
+    height: 925px;
+    position: relative;
+    background-color:darkcyan;
+}
+
+.button{
+    position: relative;
+    margin-left: 0px;
+    padding-top: 89px;
+    height: 48px; 
+    width: 100%;
+}
+
+h1{
+    text-align:center;
+}
+
+h3{
+    text-align:right;
+}
+
+.list{
+    position: relative;
+    margin-top: 60px;
+    padding-left:30px;
+    height: 900px; 
+    width: 600px;
+    font-size:16px;
+    
+}
+
+.info{
+    padding-left:30px;
+
+}
+
+.show_info{
+    text-align:center;
+    width:100%;
+    height:30px;
+    font-size:18px;
+}
+
+ul{
+    line-height:1.5;
+    font-size:16px;
+}
