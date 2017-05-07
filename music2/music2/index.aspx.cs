@@ -28,7 +28,7 @@ namespace music2
             {
                 //flag = false;    
             XmlDocument doc = new XmlDocument();
-            doc.Load(Server.MapPath("id3.xml"));
+            doc.Load(Server.MapPath("xml/id3.xml"));
             XmlNode root = doc.SelectSingleNode("id3");
             root.RemoveAll();
             string info_data = "";
@@ -61,7 +61,7 @@ namespace music2
         public void refresh()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(Server.MapPath("id3.xml"));
+            doc.Load(Server.MapPath("xml/id3.xml"));
             XmlNodeList nodes = doc.SelectNodes("id3");
             DataList2.DataSource = nodes;
             DataList2.DataBind();
@@ -76,7 +76,7 @@ namespace music2
         public void getID3()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(Server.MapPath("id3.xml"));
+            doc.Load(Server.MapPath("xml/id3.xml"));
             XmlNode root = doc.SelectSingleNode("id3");
             root.RemoveAll();
             string info_data = "";
@@ -106,7 +106,7 @@ namespace music2
                 xe3.InnerText = info_data;
                 root.AppendChild(xe3);
 
-                doc.Save(Server.MapPath("id3.xml")); 
+                doc.Save(Server.MapPath("xml/id3.xml")); 
             }
             
         }

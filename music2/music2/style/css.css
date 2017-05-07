@@ -25,6 +25,15 @@
     background-color:yellow;
 }
 
+.footer{
+    position: absolute;
+    bottom:0px;
+    text-align:center;
+    background-color:gray;
+    width:1050px;
+    height:16px;
+}
+
 .container{
     position: relative;
     margin: 0 auto;

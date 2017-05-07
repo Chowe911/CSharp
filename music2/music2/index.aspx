@@ -8,7 +8,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>欢迎加入守望先锋</title>
-    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="style/css.css" />
     <script type="text/javascript" >
         function load() {
             document.getElementById("id3_info").innerHTML = "已选择的曲目";
@@ -83,11 +83,12 @@
                         <br />
                     </ItemTemplate>
                 </asp:DataList>
-                <asp:XmlDataSource ID="data" runat="server" DataFile="~/data.xml"></asp:XmlDataSource>
+                <asp:XmlDataSource ID="data" runat="server" DataFile="~/xml/data.xml"></asp:XmlDataSource>
                 <br />
 
             </div>
         </div>
+        <div class="footer" >&copy;14031214 卢秋成制作 专辑版权归暴雪娱乐所有</div>
     </div>
     </form>
     
